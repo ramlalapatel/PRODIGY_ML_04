@@ -1,5 +1,6 @@
 # Prodigy InfoTech — Task-04: Hand Gesture Recognition & Touchless HCI System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen.svg)](https://patelramlala414.github.io/PRODIGY_ML_04/)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Kaggle Benchmark](https://img.shields.io/badge/Dataset-LeapGestRecog%20(20k)-cyan.svg)](https://www.kaggle.com/datasets/gti-upm/leapgestrecog)
 [![Model Accuracy](https://img.shields.io/badge/Test%20Accuracy-99.41%25-brightgreen.svg)](#neural-architecture--benchmarks)
@@ -7,6 +8,7 @@
 [![React 19 & Vite](https://img.shields.io/badge/Framework-React%2019%20%2B%20Vite%208-blueviolet.svg)](https://vitejs.dev/)
 [![Author](https://img.shields.io/badge/Author-Ramlala%20Patel-emerald.svg)](https://github.com/patelramlala414)
 
+> 🌐 **Live Website Deployment**: [https://patelramlala414.github.io/PRODIGY_ML_04/](https://patelramlala414.github.io/PRODIGY_ML_04/)  
 > Developed as part of the **Prodigy InfoTech Machine Learning Internship (Task-04)**.  
 > Author: **Ramlala Patel** ([patelramlala414@gmail.com](mailto:patelramlala414@gmail.com))  
 > Repository: [https://github.com/patelramlala414/PRODIGY_ML_04](https://github.com/patelramlala414/PRODIGY_ML_04)

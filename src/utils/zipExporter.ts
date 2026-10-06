@@ -5,7 +5,7 @@ export async function downloadProjectZip(): Promise<void> {
 
   // Glob all source and configuration files as raw text strings
   const rootFiles = import.meta.glob(
-    ['/package.json', '/README.md', '/index.html', '/tsconfig.json', '/vite.config.ts', '/.gitignore', '/metadata.json'],
+    ['/package.json', '/README.md', '/index.html', '/tsconfig.json', '/vite.config.ts', '/.gitignore', '/metadata.json', '/.github/workflows/*.yml'],
     { query: '?raw', import: 'default', eager: true }
   ) as Record<string, string>;
 

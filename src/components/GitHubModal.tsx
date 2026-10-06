@@ -87,17 +87,46 @@ export const GitHubModal: React.FC<GitHubModalProps> = ({ isOpen, onClose }) => 
         {/* Modal Body */}
         <div className="space-y-4 py-4 text-xs relative z-10">
           
-          {/* Why link was not found notice */}
-          <div className="p-3.5 rounded-xl bg-gradient-to-r from-amber-950/60 via-slate-900 to-indigo-950/40 border border-amber-600/50 flex items-start gap-3">
-            <AlertCircle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-            <div className="space-y-1">
-              <strong className="text-amber-200 block text-xs">
-                Link kyun nahi mili thi? (Why was the link not working?)
-              </strong>
-              <p className="text-[11px] text-slate-300 leading-relaxed">
-                GitHub par link tab banti hai jab aap pehle <strong>GitHub par nayi repository create</strong> karte hain! Kyunki bina aapke account login ke AI directly aapke GitHub par upload nahi kar sakta. Niche diye gaye <strong>2 aasan tarike</strong> se aap 1 minute me link bana sakte hain:
-              </p>
+          {/* Live Website Deployment URL Banner */}
+          <div className="p-4 rounded-xl bg-gradient-to-r from-emerald-950/70 via-slate-900 to-cyan-950/60 border-2 border-emerald-500/60 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-mono font-bold uppercase text-emerald-400 flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+                Live Website Link (Auto-Generated on Push)
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-900/80 text-emerald-200 border border-emerald-600">
+                GitHub Pages Ready
+              </span>
             </div>
+
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-[#040714] p-3 rounded-lg border border-emerald-900/70">
+              <span className="font-mono text-xs text-emerald-300 font-bold select-all break-all">
+                https://patelramlala414.github.io/PRODIGY_ML_04/
+              </span>
+              <a
+                href="https://patelramlala414.github.io/PRODIGY_ML_04/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-semibold shrink-0 transition-colors shadow"
+              >
+                <span>Open Live Link</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+
+            <p className="text-[11px] text-slate-300">
+              ✨ <strong>GitHub Actions Workflow configured:</strong> Jaise hi aap code push karenge, GitHub automatically build karke is link par aapki website live kar dega!
+            </p>
+          </div>
+
+          {/* GitHub Pages Setting 1-Step Notice */}
+          <div className="p-3 rounded-xl bg-indigo-950/40 border border-indigo-800/50 text-[11px] text-slate-300 space-y-1">
+            <strong className="text-cyan-300 block font-mono text-[11px]">
+              ⚙️ Important GitHub Setting (Just 1 Click):
+            </strong>
+            <p>
+              GitHub repository khol kar <strong>Settings</strong> ➔ <strong>Pages</strong> par jayein. <strong>Build and deployment</strong> ke andar <strong>Source</strong> ko <strong>"GitHub Actions"</strong> select kar dein!
+            </p>
           </div>
 
           {/* METHOD 1: 1-Click ZIP Download (No Terminal Needed) */}
