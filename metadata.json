@@ -1,0 +1,6 @@
+{
+  "name": "LeapGestRecog · Hand Gesture Recognition Studio",
+  "description": "Real-time hand gesture recognition system and Kaggle LeapGestRecog neural classification studio for human-computer interaction (Prodigy InfoTech Task-04).",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
